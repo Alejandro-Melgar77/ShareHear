@@ -1,0 +1,11 @@
+{
+    "server_name": "DESKTOP-BVRVH1C",
+    "control_port": 9001,
+    "audio_port": 5004,
+    "mic_port": 5005,
+    "hid_port": 9002,
+    "sample_rate": 48000,
+    "channels": 2,
+    "chunk_frames": 960,
+    "audio_device_index": null
+}

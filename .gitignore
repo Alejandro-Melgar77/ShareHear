@@ -1,0 +1,35 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pc-server/build/
+pc-server/dist/
+pc-server/__pycache__/
+
+# Android artifacts
+.gradle/
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+*.apk.idsig
+
+# System & Scratch files
+rename_log.txt
+scratch_policy.py
+.DS_Store
+Thumbs.db
+*.log
+desktop.ini
+
+# Node / Scratch caches
+node_modules/
+
+# Ensure executable and apk releases are tracked
+!ShareHear-Server.exe
+!ShareHear.apk
+!website/downloads/ShareHear.apk
+!website/downloads/Instalar-Dispositivo-Virtual-ShareHear.bat

@@ -1,0 +1,127 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Diadema de Auriculares Principal -->
+    <path
+        android:pathData="M 32,56 C 32,36 42,24 54,24 C 66,24 76,36 76,56"
+        android:strokeWidth="6"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="24"
+                android:endX="76"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#06B6D4" />
+                <item android:offset="0.5" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Diadema acolchada superior -->
+    <path
+        android:pathData="M 44,27 C 47,25 51,24 54,24 C 57,24 61,25 64,27"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Auricular Izquierdo (Cuerpo Principal) -->
+    <path
+        android:pathData="M 28,52 L 35,52 C 37,52 38,54 38,56 L 38,72 C 38,74 37,76 35,76 L 28,76 C 25,76 23,74 23,72 L 23,56 C 23,54 25,52 28,52 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#06B6D4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="52"
+                android:endX="38"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Almohadilla Izquierda -->
+    <path
+        android:pathData="M 33,55 C 34.5,55 35.5,56 35.5,58 L 35.5,70 C 35.5,72 34.5,73 33,73 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Auricular Derecho (Cuerpo Principal) -->
+    <path
+        android:pathData="M 73,52 L 80,52 C 83,52 85,54 85,56 L 85,72 C 85,74 83,76 80,76 L 73,76 C 71,76 70,74 70,72 L 70,56 C 70,54 71,52 73,52 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#818CF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="52"
+                android:endX="85"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Almohadilla Derecha -->
+    <path
+        android:pathData="M 75,55 C 73.5,55 72.5,56 72.5,58 L 72.5,70 C 72.5,72 73.5,73 75,73 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Ondas de Sonido / Transmisión Central (Representando Compartir/Share) -->
+    <!-- Barra Central 1 -->
+    <path
+        android:pathData="M 54,48 L 54,74"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Barras Sonoras Intermedias -->
+    <path
+        android:pathData="M 48,54 L 48,68"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#06B6D4" />
+
+    <path
+        android:pathData="M 60,54 L 60,68"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#06B6D4" />
+
+    <!-- Barras Sonoras Exteriores -->
+    <path
+        android:pathData="M 43,59 L 43,63"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeColor="#818CF8" />
+
+    <path
+        android:pathData="M 65,59 L 65,63"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeColor="#818CF8" />
+
+    <!-- Onda Inalámbrica Superior (Transmitiendo a la Red) -->
+    <path
+        android:pathData="M 45,17 C 50,14 58,14 63,17"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" />
+
+    <path
+        android:pathData="M 41,11 C 49,7 59,7 67,11"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#06B6D4" />
+
+</vector>
